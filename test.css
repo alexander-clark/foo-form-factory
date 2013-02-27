@@ -1,0 +1,23 @@
+ol {
+	list-style: none;
+}
+
+label {
+	float: left;
+	min-width: 200px;
+	padding: 0 20px 0 0;
+	text-align: right;	
+}
+
+fieldset ol {
+	padding-left: 0;
+}
+
+fieldset label {
+	min-width: 0;
+}
+
+.required {
+	color: red;
+	font-style: italic;
+}
